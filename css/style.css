@@ -26,6 +26,7 @@ body {
 .container {
     width: 70%;
     margin: 40px auto;
+
 }
 
 .container header {
@@ -62,6 +63,9 @@ main .container #blue-button {
 
 /*Corpo principale*/
 
+div.container-element {
+    padding-top: 30px;
+}
 
 h2::before {
     content: "\25BC";
@@ -74,7 +78,7 @@ h2::before {
 
 .list-section {
     color: #434851;
-    padding: 30px 0;
+    padding-bottom: 30px;
 }
 
 .list {

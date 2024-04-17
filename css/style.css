@@ -65,6 +65,11 @@ main .container #blue-button {
 
 div.container-element {
     padding-top: 30px;
+    border-radius: 0 0 3px 3px;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 h2::before {
@@ -86,6 +91,10 @@ h2::before {
 
 }
 
+.list li {
+    height: 2em;
+}
+
 li::before {
     content: "\2713";
     font-size: 8px;
@@ -100,10 +109,7 @@ li::before {
     text-align: center;
 }
 
-.container>div {
-    border-radius: 0 0 3px 3px;
 
-}
 
 .tag {
     font-size: 8px;
